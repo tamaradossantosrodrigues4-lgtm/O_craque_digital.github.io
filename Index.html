@@ -2,9 +2,71 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Meu Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nome do Time | Site Oficial</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Bem-vindo ao meu site!</h1>
-  <p>Esse é o meu primeiro site criado do zero.</p>
+
+  <header>
+    <div class="logo">
+      <h1>FUTEBOL CLUB</h1>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#noticias">Notícias</a></li>
+        <li><a href="#jogadores">Elenco</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Abrir Menu">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h2>Paixão e Tradição</h2>
+        <p>Acompanhe todos os jogos, notícias e bastidores do nosso clube.</p>
+        <a href="#noticias" class="btn-principal">Ver Últimas Notícias</a>
+      </div>
+    </section>
+
+    <section id="noticias" class="noticias-grid">
+      <h2>📰 Últimas Notícias</h2>
+      <article class="noticia-card">
+        <h3>Grande Vitória Fora de Casa!</h3>
+        <p>O time mostrou garra e venceu o adversário por 2 a 1, com gol no último minuto.</p>
+        <a href="#">Leia Mais</a>
+      </article>
+
+      <article class="noticia-card">
+        <h3>Novo Patrocinador Anunciado</h3>
+        <p>Parceria estratégica visa impulsionar o crescimento do clube nas próximas temporadas.</p>
+        <a href="#">Leia Mais</a>
+      </article>
+
+      <article class="noticia-card">
+        <h3>Entrevista com o Capitão</h3>
+        <p>O líder do elenco fala sobre a preparação para o próximo grande desafio.</p>
+        <a href="#">Leia Mais</a>
+      </article>
+    </section>
+
+    <section id="contato" class="contato-section">
+      <h2>Fale Conosco</h2>
+      <p>Entre em contato para parcerias ou informações gerais.</p>
+      </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Futebol Club. Todos os direitos reservados.</p>
+    <div class="social-links">
+      <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
